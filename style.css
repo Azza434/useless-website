@@ -1,6 +1,10 @@
+body {
+    background-color: slategray;
+}
+
 #field {
   height: 200px;
-  border-bottom: 3px black groove;
+  border-bottom: 3px rgb(80, 0, 0) groove;
   position: relative;
 }
 
@@ -11,4 +15,8 @@
 
 h1 {
   text-align: center;
+}
+
+button {
+    margin: auto;
 }
