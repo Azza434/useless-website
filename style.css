@@ -18,16 +18,13 @@ h1 {
 }
 
 button {
-    text-decoration: none;
-    background-color: rgb(90, 90, 90);
-    color: black; 
+    background-color: #f44336;
     border: 2px solid #f44336;
     padding: 16px 32px;
     text-align: center;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-    -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     cursor: pointer;
 }
@@ -35,4 +32,10 @@ button {
 .button:hover {
   background-color: #f44336;
   color: white;
+}
+
+a:-webkit-any-link {
+    cursor: pointer;
+    text-decoration: none;
+    color: #fafafa; 
 }
